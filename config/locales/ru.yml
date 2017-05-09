@@ -1,0 +1,48 @@
+en:
+  banners: Баннеры
+  images_only: "Форматы изображений для загрузки JPG, JPEG, PNG или GIF"
+  banner_settings_updated: "Настройки баннера успешно обновлены."
+  banner_boxes: Баннеры
+  banner_box: Баннер
+  notice_messages:
+    banner_box_cloned: "Баннер склонирован"
+    banner_box_not_cloned: "Баннер не может быть склонирован"
+  activerecord:
+    models:
+      banner_box:
+        one: Баннер
+        other: Баннеры
+    attributes:
+      banner_box:
+        category: Категория
+        updated_at: Дата обновления
+        created_at: Дата создания
+        enabled: Включено?
+        begin_display: Начать отображение
+        end_display: Закончить отображение
+  destroy: Удалить
+  confirm: Подтвердить
+  spree:
+    banners: Баннеры
+    banner_box_settings: Настройки баннера
+    general_settings: Общие настройки
+    banner_styles: Paperclip стили баннера
+    banner_path: Путь баннера
+    banner_default_url: Banner Default URL
+    banner_url: Banner URL
+    banner_default_style: Стиль баннера по умолчанию
+    add_new_banner_style: Добавить новый стиль баннера
+    new_banner_style_name: Имя стиля
+    new_banner_style_value: Значение
+    banner_settings_updated: Настройки баннера успешно обновлены
+    listing_banner_boxes: Упорядочить баннеры
+    new_banner_box: Новый баннер
+    attachment: Вложение
+    enabled: Включено
+    show_only_enabled: Показать только включенные
+    url: ссылка
+    begin_display: Начать отображение
+    end_display: Закончить отображение
+    previous: Предыдущий
+    next: Следующий
+    banner_box_settings_warning: Вам небходимо перегенерировать иконки, если вы обновляете стили paperclip. Используйте команду paperclip:refresh:thumbnails CLASS=Spree::BannerBox для этого.
